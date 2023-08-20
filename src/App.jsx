@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ut from "./assets/youtube-logo-png-transparent-image-5.png"
+import HomeNavBar from './components/HomeNavBar'
+import SearchBar from './components/SearchBar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,9 +12,18 @@ function App() {
  console.log(`This is the API Key ${import.meta.env.VITE_YT_API_KEY}`)
 
   return (
+
     <>
-      <h1> Hello Gang</h1>
-      Yo Yaow - Its Kavon!
+
+
+    <header>
+    <HomeNavBar />
+    </header>
+
+    <SearchBar/>
+    <h1> Hello Gang</h1>
+
+
       <div>
         <a href="https://youtu.be/ope1743gdAw" target="_blank">
           <img src={ut} className="logo" alt="YouTube logo" />
@@ -33,8 +44,15 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+
+      <p>Hello</p>
+    
+  
+
       <p>Helloooo</p>
+      <p>Just your friendly neighborhood Antman</p>
     </>
+
   )
 }
 
