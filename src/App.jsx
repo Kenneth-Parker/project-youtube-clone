@@ -9,7 +9,8 @@ function App() {
 
   return (
     <>
-    <h1> Hello Gang</h1>
+      <h1> Hello Gang</h1>
+      Yo Yaow - Its Kavon!
       <div>
         <a href="https://youtu.be/ope1743gdAw" target="_blank">
           <img src={ut} className="logo" alt="YouTube logo" />
@@ -31,6 +32,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <p>Helloooo</p>
+      <p>Just your friendly neighborhood Antman</p>
     </>
   )
 }
