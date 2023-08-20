@@ -8,7 +8,6 @@ function App() {
   const [count, setCount] = useState(0)
 
  console.log(`This is the API Key ${import.meta.env.VITE_YT_API_KEY}`)
- console.log("something")
 
   return (
     <>
