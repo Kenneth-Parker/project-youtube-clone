@@ -49,10 +49,7 @@ function App() {
     
   </>
 
-      <p>Helloooo</p>
-      <p>Just your friendly neighborhood Antman</p>
-    </>
-
+      
   )
 }
 
