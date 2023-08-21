@@ -1,9 +1,9 @@
 import React from "react";
 import "./HomeNavBar.jsx"
-import AboutLink from './AboutLink';
+import AboutPage from './AboutPage.jsx';
 
 
-const Link = () => {
+const AboutPage = () => {
    
 return (
  
@@ -27,4 +27,4 @@ return (
  
 };
   
-  export default Link;
+  export default AboutPage;

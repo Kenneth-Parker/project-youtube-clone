@@ -3,8 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ut from "./assets/youtube-logo-png-transparent-image-5.png"
-import HomeNavBar from './components/HomeNavBar'
-import SearchBar from './components/SearchBar'
+// import HomeNavBar from './components/HomeNavBar'
+// import SearchBar from './components/SearchBar'
+
+import Home from './Components/Home'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,11 +18,7 @@ function App() {
     <>
 
 
-    <header>
-    <HomeNavBar />
-    </header>
-
-    <SearchBar/>
+<Home />
     <h1> Hello Gang</h1>
 
 
@@ -46,7 +44,7 @@ function App() {
       </p>
 
       <p>Hello</p>
-    
+   
   
 </>
       

@@ -1,8 +1,21 @@
+
+
 nav {
     background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
 
 .Big-Logo {
     text-align: left;
     text-size-adjust: 20px;
+    list-style: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
 }
