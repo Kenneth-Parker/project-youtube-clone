@@ -5,20 +5,40 @@ import './App.css'
 import ut from "./assets/youtube-logo-png-transparent-image-5.png"
 import HomeNavBar from './components/HomeNavBar'
 import SearchBar from './components/SearchBar'
+import { Fetch } from './Fetch'
 
 function App() {
   const [count, setCount] = useState(0)
 
  console.log(`This is the API Key ${import.meta.env.VITE_YT_API_KEY}`)
 
+ 
+
+   // console.log(`This is the API Key ${import.meta.env.VITE_YT_API_KEY}`)
+
+  // console.log("This is the fetch response: " , fetch(
+  //   `https://youtube.googleapis.com/youtube/v3/search?key=${import.meta.env.VITE_YT_API_KEY}`)
+  //   .then(res => res.json())
+  //   .then(data => console.log(data)));
+
+  fetch(`https://youtube.googleapis.com/youtube/v3/search?key=${import.meta.env.VITE_YT_API_KEY}`)
+    .then(res => res.json())
+    .then(data => {
+        console.log(data);
+    })
+    .catch(error => {
+        console.error("Error fetching data:", error);
+    });
+
+
   return (
 
     <>
 
-
     <header>
     <HomeNavBar />
     </header>
+
 
     <SearchBar/>
     <h1> Hello Gang</h1>
