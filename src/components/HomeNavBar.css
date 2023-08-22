@@ -1,8 +1,28 @@
-nav {
-    background-color: red;
+/* HomeNavBar.css */
+.navBar {
+    background: red;
+    display: flex;
+    height: 3em;
 }
-
-.Big-Logo {
-    text-align: left;
-    text-size-adjust: 20px;
-}
+.nav-links {
+    
+    display: flex;
+    margin-left: 11px;
+    margin-top: 11px;
+    gap: 22px; /* Gap between links */
+    align-items: center; /* Center vertically */
+  }
+  
+  .nav-link {
+    font-size: 16px; /* Adjust font size as needed */
+  }
+  
+  .nav-link a {
+    text-decoration: none;
+    color: #000; /* Adjust link color */
+  }
+  
+  .nav-link:hover a {
+    color: #333; /* Adjust link color on hover */
+  }
+  

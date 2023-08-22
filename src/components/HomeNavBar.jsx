@@ -1,39 +1,31 @@
-import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import "./HomeNavBar.css"
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './HomeNavBar.css';
 
-function HomeNavBar ( ){
-    const handleLogoClick = () => {
-        // Do something on click
-      };
-    
-      const handleHomeClick = () => {
-        // Do something on click
-      };
-    
-      const handleAboutClick = () => {
-        // Do something .
-      };
-    
-    return (
-      <header>
-        <nav>
-            <div className='Big-Logo'>
-          <a href="./App.jsx" onClick={handleLogoClick} > YouTube</a>
+function HomeNavBar() {
+  return (
+    <header>
+      <nav className='navBar'>
+        <div className="nav-links">
+          <div className="nav-link">
+            <Link to="/">
+              <h3>YouTube</h3>
+            </Link>
           </div>
-          <div>
-          <a href="." onClick={handleHomeClick }> Home</a>
-
-          <a href="./" onClick={handleAboutClick }> About</a>
+          <div className="nav-link">
+            <Link to="/">
+              Home
+            </Link>
           </div>
-        </nav>
-      </header>  
-    )
+          <div className="nav-link">
+            <Link to="/about">
+              About
+            </Link>
+          </div>
+        </div>
+      </nav>
+    </header>
+  );
 }
-
-
-
-
-
 
 export default HomeNavBar;
