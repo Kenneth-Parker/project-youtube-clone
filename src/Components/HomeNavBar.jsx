@@ -5,6 +5,7 @@ import './HomeNavBar.css';
 function HomeNavBar() {
   return (
     <header>
+
       <nav className='navBar'>
         <div className="nav-links">
           <div className="nav-link">
