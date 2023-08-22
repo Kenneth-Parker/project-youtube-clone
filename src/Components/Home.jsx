@@ -1,8 +1,15 @@
+import HomeNavBar from "./HomeNavBar"
+import SearchBar from "./SearchBar";
+
 const Home = () => {
   return (
     <>
       <div>
-        <h1>Home</h1>
+        <header>
+          <HomeNavBar />
+        </header>
+
+        <SearchBar />
       </div>
     </>
   );
