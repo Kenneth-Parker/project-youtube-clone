@@ -15,8 +15,9 @@
 }
 
 .video-card img {
-    width: 75%;
-    height: auto;
+  border: 1px solid red;
+  width: 75%;
+  height: auto;
 }
 
 .video-card p {
