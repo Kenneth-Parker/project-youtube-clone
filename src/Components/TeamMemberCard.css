@@ -4,3 +4,12 @@
   width: 55%; 
   height: auto; 
 }
+
+.team-members{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.team-member-card{
+  /* border: 1px solid green; */
+}

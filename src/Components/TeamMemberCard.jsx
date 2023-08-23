@@ -14,7 +14,7 @@ function TeamMemberCard({ name, imageUrl, linkedInLink, githubLink, info }) {
         <br />
         <a href={githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
         <br /><br />
-        <hr />
+        {/* <hr /> */}
       </div>
     </div>
   );
