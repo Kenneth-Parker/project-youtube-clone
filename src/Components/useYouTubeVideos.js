@@ -4,7 +4,7 @@ function useYouTubeVideos(searchTerm) {
     const [videos, setVideos] = useState([]);
 
     useEffect(() => {
-        const API_KEY = `${import.meta.env.VITE_YT_API_KEY}`;
+        const API_KEY = `${import.meta.env.VITE_REACT_APP_API_KEY}`;
         const API_URL = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&part=snippet&q=${searchTerm}`;
 
         fetch(API_URL)
