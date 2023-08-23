@@ -5,7 +5,8 @@ function useYouTubeVideos(searchTerm) {
 
     useEffect(() => {
         const API_KEY = `${import.meta.env.VITE_REACT_APP_API_KEY}`;
-        const API_URL = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&part=snippet&q=${searchTerm}`;
+        const maxResults = 8; // Set the desired number of videos
+        const API_URL = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&part=snippet&q=${searchTerm}&maxResults=${maxResults}`;
 
         fetch(API_URL)
             .then((response) => {
