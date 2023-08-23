@@ -1,6 +1,6 @@
 import React from "react";
-import "./HomeNavBar.jsx"
-import AboutPage from './AboutPage.jsx';
+// import "./HomeNavBar.jsx"
+//  import AboutPage from './AboutPage.jsx';
 
 
 const AboutPage = () => {
@@ -14,7 +14,7 @@ return (
     <nav>
     <ul>
     <li><a href="/">Home</a></li>
-    <li><AboutLink /></li>
+    <li></li>
         {/* Other navigation links */}
     </ul>
     </nav>

@@ -42,8 +42,7 @@ function HomeNavBar() {
             <Routes>
                 <Route path="/" element={<></>} />
                 <Route path="/Home" element={<h1> Home </h1>} />
-                { <Route path="/About" element={<AboutPage/>} /> }
-
+                <Route path="/About" element={<AboutPage/> } /> 
             </Routes>
 
       </>
