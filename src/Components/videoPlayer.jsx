@@ -1,23 +1,3 @@
-// import React from 'react';
-// import ReactPlayer from 'react-player';
-
-// const VideoPlayer = () => {
-//   return (
-//     <div>
-//       <h2>Video Player</h2>
-//       <ReactPlayer
-//         url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-//         controls={true}
-//         width="800px"
-//         height="450px"
-//       />
-//     </div>
-//   );
-// };
-
-// export default VideoPlayer;
-
-
 import React, { useState } from 'react';
 import ReactPlayer from 'react-player';
 
