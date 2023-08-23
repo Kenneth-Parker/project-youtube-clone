@@ -1,5 +1,6 @@
 // VideoList.jsx
 import React from 'react';
+import './videoList.css'
 
 function VideoList({ videos }) {
   return (
