@@ -5,12 +5,11 @@ import './HomeNavBar.css';
 function HomeNavBar() {
   return (
     <header>
-
       <nav className='navBar'>
         <div className="nav-links">
           <div className="nav-link">
             <Link to="/">
-              <h3>YouTube</h3>
+              <h2>YouTube</h2>
             </Link>
           </div>
           <div className="nav-link">
