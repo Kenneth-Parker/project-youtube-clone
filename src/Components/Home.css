@@ -9,41 +9,54 @@
 /*}
   */
 
-.logo {
-  height: 9em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-.ourNames:hover {
-  filter: drop-shadow(0 0 2em #69ff7faa);
-}
-
-.search-bar {
-  padding: 22px;
-}
-
-.searchBarArea {
-  padding: 8px;
-  margin-right: 11px;
-}
-
-.searchBarArea-btn {
-  background: red;
-}
-
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .logo {
+    height: 9em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
   }
-}
+  
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  .ourNames:hover {
+    filter: drop-shadow(0 0 2em #69ff7faa);
+  }
+  
+  .search-bar {
+    padding: 22px;
+  }
+  
+  .searchBarArea {
+    padding: 8px;
+    margin-right: 11px;
+  }
+  
+  .searchBarArea-btn {
+    background: red;
+  }
+  
+  .listCard {
+    border-radius: 11%;
+    border: 3px solid red;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 11px;
+    width: 35%;
+  }
+  
+  iframe {
+    border-radius: 7%;
+    border: 5px solid red;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
