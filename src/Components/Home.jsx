@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../Components/Home.css'; // Correct the CSS import path
 import ut from "../assets/youtube-logo-png-transparent-image-5.png";
-import HomeNavBar from './HomeNavbar';
+import HomeNavBar from './HomeNavBar';
 import SearchBar from './SearchBar';
 import VideoList from './VideoList';
 import useYouTubeVideos from './useYouTubeVideos';
