@@ -1,7 +1,6 @@
 .profile-image {
-    border: red solid 3px;
-    border-radius: 25%;
-    width: 55%; 
-    height: auto; 
-  }
-  
+  border: red solid 3px;
+  border-radius: 25%;
+  width: 55%; 
+  height: auto; 
+}

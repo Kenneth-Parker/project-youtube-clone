@@ -7,7 +7,7 @@ function SearchBar({ onSearch }) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    onSearch(searchTerm); // Pass the search term to the parent component
+    onSearch(searchTerm); 
   };
 
   return (

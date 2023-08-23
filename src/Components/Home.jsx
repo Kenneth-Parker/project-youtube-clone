@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import '../Components/Home.css'; // Correct the CSS import path
 import ut from "../assets/youtube-logo-png-transparent-image-5.png";
-import HomeNavBar from './HomeNavbar';
+import HomeNavBar from './HomeNavBar';
 import SearchBar from './SearchBar';
 import VideoList from './VideoList';
 import useYouTubeVideos from './useYouTubeVideos';
 
 
 function Home() {
-  const [searchTerm, setSearchTerm] = useState('chris_brown'); // Default search term
+  const [searchTerm, setSearchTerm] = useState('flyest in the city'); // Default search term
   const videos = useYouTubeVideos(searchTerm);
 
   const handleSearch = (newSearchTerm) => {
@@ -33,7 +33,7 @@ function Home() {
           <img src={ut} className="logo" alt="YouTube logo" />
         </a>
       </div>
-      <h1 className='ourNames'>5iveShadesofBrown</h1>
+      <h1 className='ourNames'>5iveShadesOfBrown</h1>
     </>
   );
 }
