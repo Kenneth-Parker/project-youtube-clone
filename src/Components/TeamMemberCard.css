@@ -1,7 +1,15 @@
 .profile-image {
-    border: red solid 3px;
-    border-radius: 25%;
-    width: 55%; 
-    height: auto; 
-  }
-  
+  border: red solid 3px;
+  border-radius: 25%;
+  width: 55%; 
+  height: auto; 
+}
+
+.team-members{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.team-member-card{
+  /* border: 1px solid black; */
+}
