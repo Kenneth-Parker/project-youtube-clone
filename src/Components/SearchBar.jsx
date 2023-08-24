@@ -27,6 +27,7 @@ function SearchBar({ onSearch }) {
             </form>
         </div>
     );
+    
 }
 
 export default SearchBar;
