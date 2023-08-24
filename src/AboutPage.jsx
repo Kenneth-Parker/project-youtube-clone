@@ -1,6 +1,6 @@
 import React from "react";
-// import "./HomeNavBar.jsx"
-//  import AboutPage from './AboutPage.jsx';
+import "./HomeNavBar.jsx"
+import AboutPage from './AboutPage.jsx';
 
 
 const AboutPage = () => {
