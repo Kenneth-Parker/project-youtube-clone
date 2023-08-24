@@ -28,6 +28,17 @@
   filter: drop-shadow(0 0 2em #69ff7faa);
 }
 
+
+.search-prompt {
+  /* border: red solid 2px; */
+  /* background: rgba(255, 0, 0, 0.422); */
+  text-align: center;
+  padding: 22px;
+  font-size: 18px;
+  color: #999;
+}
+
+
 .search-bar {
   padding: 22px;
 }
