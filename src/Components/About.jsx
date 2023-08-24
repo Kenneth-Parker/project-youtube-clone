@@ -51,6 +51,7 @@ const AboutPage = () => {
             <header>
                 <HomeNavBar />
             </header>
+            
 
             <div className="about-page">
                 <h1>About the Team</h1>
