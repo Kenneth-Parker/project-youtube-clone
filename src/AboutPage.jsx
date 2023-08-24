@@ -14,7 +14,9 @@ return (
     <nav>
     <ul>
     <li><a href="/">Home</a></li>
-    <li></li>
+
+    <li><AboutPage /></li>
+
         {/* Other navigation links */}
     </ul>
     </nav>

@@ -1,13 +1,17 @@
+
 import React, { useState } from 'react';
+
 
 function SearchBar({ onSearch }) {
     const [searchTerm, setSearchTerm] = useState('');
     const [searchError, setSearchError]= useState('');
 
+
     const handleSubmit = (event) => {
         event.preventDefault();
         onSearch(searchTerm); // Pass the search term to the parent component
     };
+
 
     if(searchTerm === ''){
         setSearchError('No Search Results Yet! Please submit a search above !')

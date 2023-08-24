@@ -41,6 +41,19 @@
   background: red;
 }
 
+.listCard {
+  border-radius: 11%;
+  border: 3px solid red;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 11px;
+  width: 35%;
+}
+
+iframe {
+  border-radius: 7%;
+  border: 5px solid red;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
