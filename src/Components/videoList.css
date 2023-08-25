@@ -1,0 +1,25 @@
+.video-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.video-card {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* max-width: 100%; */
+  /* height: auto; */
+}
+
+.video-card img {
+  width: 75%;
+  height: auto;
+}
+
+.video-card p {
+  margin: 10px;
+  text-align: center;
+}
